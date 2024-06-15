@@ -25,16 +25,16 @@ const Navbar = () => {
             setMenuOpen(!menuOpen);
           }}
         >
-          <li>
+          <li className={styles.links}>
             <a href="#about">About</a>
           </li>
-          <li>
+          <li className={styles.links}>
             <a href="#experience">Experience</a>
           </li>
-          <li>
+          <li className={styles.links}>
             <a href="#project">Project</a>
           </li>
-          <li>
+          <li className={styles.links}>
             <a href="#contact">Contact</a>
           </li>
         </ul>
