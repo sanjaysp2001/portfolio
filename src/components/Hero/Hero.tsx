@@ -1,4 +1,6 @@
 import styles from "./Hero.module.css";
+import assets from "../../data/assets.json"
+
 const Hero = () => {
   return (
     <section className={styles.container}>
@@ -16,7 +18,7 @@ const Hero = () => {
         </a>
       </div>
       <img
-        src="/assets/hero/heroImage.png"
+        src={assets.hero.heroImage}
         alt="hero"
         className={styles.heroImage}
       ></img>
