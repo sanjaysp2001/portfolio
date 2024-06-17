@@ -1,0 +1,17 @@
+[
+  {
+    "role": "Digital Specialist Engineer",
+    "organization": "Infosys",
+    "startDate": "July 2022",
+    "endDate": "Present",
+    "description": [
+      "Built responsive and intuitive UI",
+
+      "Ut quam felis, dictum ut libero eu, tempor bibendum arcu",
+      "Nam semper hendrerit odio, congue suscipit libero consectetur ut. Nulla facilisi. ",
+      "Nunc iaculis eu magna a accumsan",
+      " Nam rhoncus ac velit eget blandit. Curabitur lacinia ac mi nec consequat. Quisque sollicitudin enim tortor"
+    ],
+    "imageSrc": "/assets/history/infosys.png"
+  }
+]
