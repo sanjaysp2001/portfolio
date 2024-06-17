@@ -17,7 +17,7 @@ const Hero = () => {
       </div>
       <img
         src="/assets/hero/heroImage.png"
-        alt="my-image"
+        alt="hero"
         className={styles.heroImage}
       ></img>
       <div className={styles.topBlur}></div>

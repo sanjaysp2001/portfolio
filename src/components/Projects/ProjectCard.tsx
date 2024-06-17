@@ -1,7 +1,6 @@
 import React, { Key } from "react";
 
 import styles from "./ProjectCard.module.css";
-import { getImageUrl } from "../../utils";
 import { ProjectType } from "./Projects";
 
 interface IProjectCard {
@@ -13,7 +12,7 @@ export const ProjectCard = ({ project, key }: IProjectCard) => {
     <div className={styles.container} key={key}>
       <img
         src={project.imageSrc}
-        alt={`Image of ${project.title}`}
+        alt={`${project.title}`}
         className={styles.image}
       />
       <div className={styles.innerContainer}>
