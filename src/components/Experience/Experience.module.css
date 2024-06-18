@@ -36,8 +36,18 @@
   justify-content: center;
   width: 120px;
   height: 120px;
+  
 }
 
+.skill{
+  transition: transform 0.2s; 
+}
+
+.skill:hover {
+  transform: scale(
+    1.3
+  ); 
+}
 .skillImgContainer img {
   width: 75px;
 }
@@ -67,10 +77,10 @@
   border-radius: 10px;
 }
 
-.expItemHeader{
-    display: flex;
-    gap: 17px;
-    margin-bottom: 10px;
+.expItemHeader {
+  display: flex;
+  gap: 17px;
+  margin-bottom: 10px;
 }
 .expItemHeader img {
   width: 75px;
@@ -80,33 +90,32 @@
   font-family: var(--font-roboto);
 }
 
-.expItemDetails h3{
-    font-size: 25px;
-    font-weight: 500;
+.expItemDetails h3 {
+  font-size: 25px;
+  font-weight: 500;
 }
 
-.expItemDetails ul{
-    margin-top:6px;
-    list-style-position: inside;
-    font-size: 25px;
-    list-style: disc;
-    margin-left: 17px;
+.expItemDetails ul {
+  margin-top: 6px;
+  list-style-position: inside;
+  font-size: 25px;
+  list-style: disc;
+  margin-left: 17px;
 }
-
 
 @media screen and (max-width: 830px) {
-    .content{
-        flex-direction: column;
-        align-items: center;
-        gap: 34px;
-    }
-    .skills{
-        width: 100%;
-        justify-content: center;
-    }
+  .content {
+    flex-direction: column;
+    align-items: center;
+    gap: 34px;
+  }
+  .skills {
+    width: 100%;
+    justify-content: center;
+  }
 
-    .experience{
-        width: 100%;
-        gap: 10px;
-    }
+  .experience {
+    width: 100%;
+    gap: 10px;
+  }
 }

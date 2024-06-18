@@ -31,9 +31,9 @@ const Navbar = () => {
           <li className={styles.links}>
             <a href="#experience">Experience</a>
           </li>
-          <li className={styles.links}>
+          {/* <li className={styles.links}>
             <a href="#projects">Project</a>
-          </li>
+          </li> */}
           <li className={styles.links}>
             <a href="#contact">Contact</a>
           </li>

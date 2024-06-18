@@ -1,5 +1,5 @@
 import styles from "./Hero.module.css";
-import assets from "../../data/assets.json"
+import assets from "../../data/assets.json";
 
 const Hero = () => {
   return (
@@ -10,12 +10,20 @@ const Hero = () => {
           I am a React Developer experienced in Javascript, React, Redux and
           Material UI
         </p>
-        <a
-          href="mailto:spsanjay6567@gmail.com"
-          className={styles.contactButton}
-        >
-          Contact Me
-        </a>
+        <div className={styles.links}>
+          <a
+            href="mailto:spsanjay6567@gmail.com"
+            className={styles.contactButton}
+          >
+            Contact Me
+          </a>
+          <a
+            href="https://drive.google.com/file/d/1zZRAaP04n27crGQEI27jG3H0h5rWKXG0/view?usp=sharing"
+            className={styles.contactButton}
+          >
+            View Resume
+          </a>
+        </div>
       </div>
       <img
         src={assets.hero.heroImage}
