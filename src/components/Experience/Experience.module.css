@@ -22,7 +22,7 @@
 }
 
 .skills {
-  width: 45%;
+  width: 35%;
   display: flex;
   flex-wrap: wrap;
   gap: 25px;
@@ -36,8 +36,18 @@
   justify-content: center;
   width: 120px;
   height: 120px;
+  
 }
 
+.skill{
+  transition: transform 0.2s; 
+}
+
+.skill:hover {
+  transform: scale(
+    1.3
+  ); 
+}
 .skillImgContainer img {
   width: 75px;
 }
@@ -50,7 +60,7 @@
 }
 
 .experience {
-  width: 45%;
+  width: 55%;
   display: flex;
   flex-direction: column;
   gap: 40px;
@@ -67,46 +77,52 @@
   border-radius: 10px;
 }
 
-.expItemHeader{
-    display: flex;
-    gap: 17px;
-    margin-bottom: 10px;
+.expItemHeader {
+  display: flex;
+  gap: 17px;
+  margin-bottom: 10px;
 }
 .expItemHeader img {
   width: 75px;
+}
+.expItemHeader p{
+  font-size: 20px
 }
 
 .expItemDetails {
   font-family: var(--font-roboto);
 }
 
-.expItemDetails h3{
-    font-size: 25px;
-    font-weight: 500;
+.expItemDetails h3 {
+  font-size: 25px;
+  font-weight: 500;
 }
 
-.expItemDetails ul{
-    margin-top:6px;
-    list-style-position: inside;
-    font-size: 25px;
-    list-style: disc;
-    margin-left: 17px;
+.expItemDetails ul {
+  margin-top: 6px;
+  list-style-position: inside;
+  padding: 10px;
+  font-size: 25px;
+  list-style: disc;
+  margin-left: 17px;
 }
 
-
+.listItem{
+  margin-top: 4%;
+}
 @media screen and (max-width: 830px) {
-    .content{
-        flex-direction: column;
-        align-items: center;
-        gap: 34px;
-    }
-    .skills{
-        width: 100%;
-        justify-content: center;
-    }
+  .content {
+    flex-direction: column;
+    align-items: center;
+    gap: 34px;
+  }
+  .skills {
+    width: 100%;
+    justify-content: center;
+  }
 
-    .experience{
-        width: 100%;
-        gap: 10px;
-    }
+  .experience {
+    width: 100%;
+    gap: 10px;
+  }
 }
