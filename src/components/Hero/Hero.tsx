@@ -7,8 +7,8 @@ const Hero = () => {
       <div className={styles.content}>
         <h1 className={styles.title}>Hi, I am Sanjay!</h1>
         <p className={styles.description}>
-          I am a React Developer experienced in Javascript, React, Redux and
-          Material UI
+          I am a React Developer with 2 years of experience in <b>Javascript</b>
+          ,<b>React js</b>,<b>Redux</b> and <b>Material UI</b>
         </p>
         <div className={styles.links}>
           <a

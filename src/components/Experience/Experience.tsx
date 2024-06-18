@@ -4,7 +4,7 @@ import styles from "./Experience.module.css";
 const Experience = () => {
   return (
     <section id="experience" className={styles.container}>
-      <h2 className={styles.title}>Experience</h2>
+      <h2 className={styles.title}>Experience & Skills</h2>
       <div className={styles.content}>
         <div className={styles.skills}>
           {skills.map((skill, id) => {
@@ -35,7 +35,11 @@ const Experience = () => {
 
                   <ul>
                     {exp.description.map((des, id) => {
-                      return <li key={id}>{des}</li>;
+                      return (
+                        <li key={id} className={styles.listItem}>
+                          {des}
+                        </li>
+                      );
                     })}
                   </ul>
                 </div>

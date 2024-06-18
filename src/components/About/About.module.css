@@ -27,7 +27,7 @@
 }
 
 .aboutImage {
-  width: 90%;
+  width: 150%;
 }
 
 .aboutItems {
@@ -64,9 +64,13 @@
 }
 
 .aboutItem p {
+  margin-top: 2%;
   font-size: 25px;
+  letter-spacing: 1.5px;
 }
-
+.aboutItem img{
+  margin-right: 2%;
+}
 @media screen and (max-width: 830px) {
   .container {
     background-color: transparent;

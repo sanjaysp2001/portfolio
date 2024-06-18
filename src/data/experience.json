@@ -5,12 +5,11 @@
     "startDate": "July 2022",
     "endDate": "Present",
     "description": [
-      "Built responsive and intuitive UI",
-
-      "Ut quam felis, dictum ut libero eu, tempor bibendum arcu",
-      "Nam semper hendrerit odio, congue suscipit libero consectetur ut. Nulla facilisi. ",
-      "Nunc iaculis eu magna a accumsan",
-      " Nam rhoncus ac velit eget blandit. Curabitur lacinia ac mi nec consequat. Quisque sollicitudin enim tortor"
+      " Developed User Interface for a 3D Car Configurator Application with React components",
+      "Implemented workflow for UI and 3D Model interaction that also updates the model in real time",
+      "Incorporated Redux for state management and streamlining component rerendering.",
+      "Improving data flow within applications by properly integrating the REST APIs",
+      "Addressed bugs promptly using debugging tools like Chrome DevTools or React Developer Tools, minimizing disruptions to end users"
     ],
     "imageSrc": "https://ucarecdn.com/2f82b5fe-ad32-412e-b03a-457b91b8fc0d/-/preview/75x75/"
   }
