@@ -27,7 +27,7 @@
 }
 
 .aboutImage {
-  width: 150%;
+  width: 100%;
 }
 
 .aboutItems {
@@ -68,14 +68,25 @@
   font-size: 25px;
   letter-spacing: 1.5px;
 }
-.aboutItem img{
+.aboutItem img {
   margin-right: 2%;
+}
+
+.aboutDescription h3 {
+  font-size: 25px;
+  font-weight: 600;
 }
 @media screen and (max-width: 830px) {
   .container {
     background-color: transparent;
+    margin-top: 5%;
     padding-left: 0;
     padding-right: 0;
+  }
+
+  .title {
+    font-size: 45px;
+    text-align: center;
   }
   .content {
     flex-direction: column;
@@ -90,5 +101,13 @@
   .aboutItem {
     padding-left: 0;
     padding-right: 0;
+  }
+
+  .aboutItem img {
+    display: none;
+  }
+
+  .aboutDescription {
+    text-align: center;
   }
 }
