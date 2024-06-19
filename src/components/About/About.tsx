@@ -52,7 +52,7 @@ const About = () => {
                 industry trends and technologies.
               </p>
             </div>
-          </motion.li>
+          </li>
         </ul>
       </div>
     </section>
