@@ -16,12 +16,7 @@ const About = () => {
           alt="me sitting with laptop"
         ></motion.img>
         <ul className={styles.aboutItems}>
-          <motion.li
-            className={styles.aboutItem}
-            initial={{ opacity: 0 }}
-            whileInView={{ opacity: 1 }}            
-            viewport={{ once: true }}
-          >
+          <li>
             <img src={assets.about.uiIcon} alt="ui"></img>
             <div className={styles.aboutDescription}>
               <h3>Frontend Developer</h3>
@@ -34,13 +29,8 @@ const About = () => {
                 applications using React.
               </p>
             </div>
-          </motion.li>
-          <motion.li
-            className={styles.aboutItem}
-            initial={{opacity: 0 }}
-            whileInView={{ opacity: 1 }}            
-            viewport={{ once: true }}
-          >
+          </li>
+          <li className={styles.aboutItem}>
             <img src={assets.about.cursorIcon} alt="curson"></img>
             <div className={styles.aboutDescription}>
               <h3>Problem Solver</h3>
@@ -52,7 +42,7 @@ const About = () => {
                 industry trends and technologies.
               </p>
             </div>
-          </motion.li>
+          </li>
         </ul>
       </div>
     </section>
