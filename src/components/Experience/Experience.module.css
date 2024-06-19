@@ -116,6 +116,11 @@
     align-items: center;
     gap: 34px;
   }
+  .title{
+    font-size: 45px;
+    text-align: center;
+    margin-bottom: 10%;
+  }
   .skills {
     width: 100%;
     justify-content: center;
@@ -124,5 +129,9 @@
   .experience {
     width: 100%;
     gap: 10px;
+  }
+  
+  .expItem{
+    background: linear-gradient(180deg, #19376d 0%, rgba(255, 255, 255, 0) 100%);
   }
 }

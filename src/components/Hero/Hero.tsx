@@ -1,28 +1,43 @@
 import styles from "./Hero.module.css";
 import assets from "../../data/assets.json";
-
+import AnimatedText from "../AnimatedComponents/AnimatedText";
+import { motion } from "framer-motion";
 const Hero = () => {
   return (
     <section className={styles.container}>
       <div className={styles.content}>
-        <h1 className={styles.title}>Hi, I am Sanjay!</h1>
-        <p className={styles.description}>
-          I am a React Developer with 2 years of experience in <b>Javascript</b>
-          ,<b>React js</b>,<b>Redux</b> and <b>Material UI</b>
-        </p>
+        <AnimatedText text={"Hi, I am Sanjay"} />
+        <div className={styles.textContainer}>
+          <motion.p
+            className={styles.description}
+            initial={{ opacity: 0, x: -100 }}
+            animate={{ opacity: 1, x: 0 }}
+            transition={{ delay: 1, duration:0.8 }}
+          >
+            I am a React Developer with 2 years of experience in{" "}
+            <b>Javascript</b>,<b>React js</b>,<b>Redux</b> and{" "}
+            <b>Material UI</b>
+          </motion.p>
+        </div>
         <div className={styles.links}>
-          <a
+          <motion.a
+            initial={{ scale: 0}}
+            animate={{ scale: 1 }}
+            transition={{ delay: 1.2 }}
             href="mailto:spsanjay6567@gmail.com"
             className={styles.contactButton}
           >
             Contact Me
-          </a>
-          <a
+          </motion.a>
+          <motion.a
+            initial={{ scale: 0 }}
+            animate={{ scale: 1 }}
+            transition={{ delay: 1.2 }}
             href="https://drive.google.com/file/d/1zZRAaP04n27crGQEI27jG3H0h5rWKXG0/view?usp=sharing"
             className={styles.contactButton}
           >
             View Resume
-          </a>
+          </motion.a>
         </div>
       </div>
       <img

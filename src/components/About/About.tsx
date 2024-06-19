@@ -1,19 +1,29 @@
 import styles from "./About.module.css";
 import assets from "../../data/assets.json";
+import { motion } from "framer-motion";
+
 const About = () => {
   return (
     <section className={styles.container} id="about">
       <h2 className={styles.title}>About Me</h2>
       <div className={styles.content}>
-        <img
+        <motion.img
+          initial={{ scale: 0.1 }}
+          whileInView={{ scale: 1.5 }}
+          viewport={{ once: true }}
           className={styles.aboutImage}
           src={assets.about.aboutImage}
           alt="me sitting with laptop"
-        ></img>
+        ></motion.img>
         <ul className={styles.aboutItems}>
-          <li className={styles.aboutItem}>
+          <motion.li
+            className={styles.aboutItem}
+            initial={{ opacity: 0 }}
+            whileInView={{ opacity: 1 }}            
+            viewport={{ once: true }}
+          >
             <img src={assets.about.uiIcon} alt="ui"></img>
-            <div>
+            <div className={styles.aboutDescription}>
               <h3>Frontend Developer</h3>
               <p>
                 I am a passionate React developer with 2 years of professional
@@ -24,10 +34,15 @@ const About = () => {
                 applications using React.
               </p>
             </div>
-          </li>
-          <li className={styles.aboutItem}>
+          </motion.li>
+          <motion.li
+            className={styles.aboutItem}
+            initial={{opacity: 0 }}
+            whileInView={{ opacity: 1 }}            
+            viewport={{ once: true }}
+          >
             <img src={assets.about.cursorIcon} alt="curson"></img>
-            <div>
+            <div className={styles.aboutDescription}>
               <h3>Problem Solver</h3>
               <p>
                 I thrive in collaborative environments and enjoy working with
@@ -37,7 +52,7 @@ const About = () => {
                 industry trends and technologies.
               </p>
             </div>
-          </li>
+          </motion.li>
         </ul>
       </div>
     </section>
