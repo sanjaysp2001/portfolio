@@ -1,35 +1,26 @@
 {
   "about": {
-    "aboutImage": "https://ucarecdn.com/c094791c-53f7-4715-a0b9-a06ce0f9ce62/-/preview/1000x1000/",
-    "cursorIcon": "https://ucarecdn.com/1c609a1c-a6a9-4bcd-8390-0eb481899cdd/-/preview/70x70/",
-    "serverIcon": "https://ucarecdn.com/fb69e0ff-2a20-4b35-a81d-61219d781e2f/-/preview/70x70/",
-    "uiIcon": "https://ucarecdn.com/b73bd80a-a5c1-4a5e-b6a1-710bc761724a/-/preview/70x70/"
+    "aboutImage": "/assets/about/aboutImage.png",
+    "cursorIcon": "/assets/about/cursorIcon.png",
+    "serverIcon": "/assets/about/serverIcon.png",
+    "uiIcon": "/assets/about/uiIcon.png"
   },
   "contact": {
-    "emailIcon": "https://ucarecdn.com/8638cf63-4e26-4e5d-a389-cb239974dda3/-/preview/50x50/",
-    "githubIcon": "https://ucarecdn.com/dff42eb5-61f8-447d-9cb0-cbbb31830844/-/preview/50x50/",
-    "linkedinIcon": "https://ucarecdn.com/92d5f93c-896e-477d-9cf5-88556533e117/-/preview/50x50/"
+    "emailIcon": "/assets/contact/emailIcon.png",
+    "githubIcon": "/assets/contact/githubIcon.png",
+    "linkedinIcon": "/assets/contact/linkedinIcon.png"
   },
   "hero": {
-    "heroImage": "https://ucarecdn.com/ed69d332-b0cb-46e7-a6a7-35a59ff46a39/-/preview/550x550/"
+    "heroImage": "/assets/hero/heroImage.png"
   },
   "history": {
-    "infosys": "https://ucarecdn.com/2f82b5fe-ad32-412e-b03a-457b91b8fc0d/-/preview/75x75/"
+    "infosys": "/assets/history/infosys.png"
   },
   "nav": {
-    "menuIcon": "https://ucarecdn.com/d2e5a1a4-b78a-4384-80aa-e977d8fb2848/-/preview/40x40/",
-    "closeIcon": "https://ucarecdn.com/0b6332a5-df6d-4c6a-811d-7cd8bf00751f/-/preview/40x40/"
+    "menuIcon": "/assets/nav/menuIcon.png",
+    "closeIcon": "/assets/nav/closeIcon.png"
   },
   "projects": {
-    "project": "https://ucarecdn.com/883a8b44-8c9f-4405-9c39-7e5a18f56463/-/preview/298x200/"
-  },
-  "skills": {
-    "html": "https://ucarecdn.com/8f72e64f-12b1-4016-a9d2-5d3329604e55/-/preview/75x75/",
-    "css": "https://ucarecdn.com/b360877c-1690-4be3-845d-52c8b660e3ab/-/preview/75x75/",
-    "js": "https://ucarecdn.com/0264d018-0b61-43ce-a0c2-f1b589068455/-/preview/75x75/",
-    "react": "https://ucarecdn.com/79d2a2c7-52c0-4fac-836f-17906a480bac/-/preview/87x75/",
-    "redux": "https://ucarecdn.com/a0d7cbca-03b4-41e5-8f89-eaddc80cd223/-/preview/75x75/",
-    "git": "https://ucarecdn.com/a93c0255-ab04-4ddf-af01-fe59014b1b5e/-/preview/75x75/",
-    "materialui": "https://ucarecdn.com/2def5bb3-5ca6-4dff-87aa-02fd5b0a531d/-/preview/80x80/"
+    "project": "/assets/projects/project.png"
   }
 }
