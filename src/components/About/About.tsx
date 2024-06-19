@@ -18,8 +18,8 @@ const About = () => {
         <ul className={styles.aboutItems}>
           <motion.li
             className={styles.aboutItem}
-            initial={{ opacity: 0 }}
-            whileInView={{ opacity: 1 }}            
+            initial={{ scale: 0 }}
+            whileInView={{ scale: 1 }}            
             viewport={{ once: true }}
           >
             <img src={assets.about.uiIcon} alt="ui"></img>
@@ -37,8 +37,8 @@ const About = () => {
           </motion.li>
           <motion.li
             className={styles.aboutItem}
-            initial={{opacity: 0 }}
-            whileInView={{ opacity: 1 }}            
+            initial={{scale: 0 }}
+            whileInView={{ scale: 1 }}            
             viewport={{ once: true }}
           >
             <img src={assets.about.cursorIcon} alt="curson"></img>
