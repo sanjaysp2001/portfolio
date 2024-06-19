@@ -1,35 +1,35 @@
 [
   {
     "name": "Javascript",
-    "imageUrl": "https://ucarecdn.com/0264d018-0b61-43ce-a0c2-f1b589068455/-/preview/75x75/"
+    "imageUrl": "/assets/skills/js.png"
   },
   {
     "name": "HTML",
-    "imageUrl": "https://ucarecdn.com/8f72e64f-12b1-4016-a9d2-5d3329604e55/-/preview/75x75/"
+    "imageUrl": "/assets/skills/html.png"
   },
   {
     "name": "CSS",
-    "imageUrl": "https://ucarecdn.com/b360877c-1690-4be3-845d-52c8b660e3ab/-/preview/75x75/"
+    "imageUrl": "/assets/skills/css.png"
   },
   {
     "name": "React",
-    "imageUrl": "https://ucarecdn.com/79d2a2c7-52c0-4fac-836f-17906a480bac/-/preview/87x75/"
+    "imageUrl": "/assets/skills/react.png"
   },
   {
     "name": "Redux",
-    "imageUrl": "https://ucarecdn.com/a0d7cbca-03b4-41e5-8f89-eaddc80cd223/-/preview/75x75/"
+    "imageUrl": "/assets/skills/redux.png"
   },
   {
     "name": "Material UI",
-    "imageUrl": "https://ucarecdn.com/2def5bb3-5ca6-4dff-87aa-02fd5b0a531d/-/preview/80x80/"
+    "imageUrl": "/assets/skills/materialui.png"
   },
   {
     "name": "Git ",
-    "imageUrl": "https://ucarecdn.com/a93c0255-ab04-4ddf-af01-fe59014b1b5e/-/preview/75x75/"
+    "imageUrl": "/assets/skills/git.png"
   },
   {
     "name": "Rest API ",
-    "imageUrl": "https://ucarecdn.com/08cb5cfc-41f4-4b08-931a-8f01d085a86b/-/preview/80x80/"
+    "imageUrl": "/assets/skills/restapi.png"
   },
   {
     "name": "Postman ",
