@@ -64,7 +64,7 @@
   .links {
     align-items: center;
   }
-  .link:first-child a{
+  .link a{
     word-break: break-all;
   }
 }
