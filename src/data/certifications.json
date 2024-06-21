@@ -1,0 +1,38 @@
+[
+  {
+    "title": "Infosys Certified React Developer",
+    "provider": "Infosys",
+    "imageSrc": "/assets/certifications/infosys.jpg",
+    "source": ""
+  },
+  {
+    "title": "Infosys Certified .NET Core Web API Developer",
+    "provider": "Infosys",
+    "imageSrc": "/assets/certifications/infosys.jpg",
+    "source": ""
+  },
+  {
+    "title": "Foundations of User Experience Design",
+    "provider": "Google",
+    "imageSrc": "/assets/certifications/google.jpg",
+    "source": "https://www.coursera.org/account/accomplishments/verify/6P922XHG87P4"
+  },
+  {
+    "title": "MTA - Database Fundamentals Certified",
+    "provider": "Microsoft",
+    "imageSrc": "/assets/certifications/microsoft.jpg",
+    "source": "https://www.credly.com/badges/00ea6ccf-6465-495d-a22f-a03d72afcd68/public_url"
+  },
+  {
+    "title": "Cloud Core Certified",
+    "provider": "IBM",
+    "imageSrc": "/assets/certifications/ibm.jpg",
+    "source": "https://www.credly.com/go/GynCFgFj"
+  },
+  {
+    "title": "HTML,CSS and Javascript for Web Developers",
+    "provider": "Coursera",
+    "imageSrc": "/assets/certifications/coursera.jpg",
+    "source": "https://www.coursera.org/account/accomplishments/verify/AH8HF6E7LZJV"
+  }
+]

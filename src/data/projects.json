@@ -3,7 +3,7 @@
     "title": "Project 1",
     "description": " Lorem ipsum dolor sit amet, consectetur adipiscing elitLorem ipsum dolor sit amet, consectetur adipiscing elitLorem ipsum dolor sit amet, consectetur adipiscing elit",
     "skills": ["React", "Redux", "Material UI"],
-    "imageSrc": "/assets/projects/project.png"
+    "imageSrc": "/assets/projects/project.png",
     "demo": "",
     "source": ""
   },
@@ -11,7 +11,7 @@
     "title": "Project 2",
     "description": " Lorem ipsum dolor sit amet, consectetur adipiscing elit",
     "skills": ["React", "Redux", "Material UI"],
-    "imageSrc": "/assets/projects/project.png"
+    "imageSrc": "/assets/projects/project.png",
     "demo": "",
     "source": ""
   }
