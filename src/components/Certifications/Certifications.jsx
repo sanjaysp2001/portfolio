@@ -14,7 +14,7 @@ export const Certifications = () => {
     ref.current.scrollLeft += scrollOffset;
   };
   return (
-    <section className={styles.container} id="projects">
+    <section className={styles.container} id="certifications">
       <h2 className={styles.title}>Certifications</h2>
       <div className={styles.scrollContainer}>
         <FontAwesomeIcon
