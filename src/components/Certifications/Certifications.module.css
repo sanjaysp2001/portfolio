@@ -65,6 +65,7 @@
     flex-direction: column;
   }
   .mobileArrowContainer {
+    margin-top: 20px;
     display: flex;
     gap: 20px;
   }
@@ -73,5 +74,8 @@
   }
   .title {
     text-align: center;
+  }
+  .certifications{
+    padding: 0px;
   }
 }
