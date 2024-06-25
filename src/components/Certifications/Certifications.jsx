@@ -21,7 +21,7 @@ export const Certifications = () => {
           icon={faCircleArrowLeft}
           className={styles.scrollArrows}
           onClick={() => {
-            scroll(-330);
+            scroll(-355);
           }}
         />
         <div className={styles.certifications} ref={ref}>
@@ -34,14 +34,14 @@ export const Certifications = () => {
             icon={faCircleArrowLeft}
             className={styles.scrollArrowsMobile}
             onClick={() => {
-              scroll(-325);
+              scroll(-340);
             }}
           />
           <FontAwesomeIcon
             className={styles.scrollArrowsMobile}
             icon={faCircleArrowRight}
             onClick={() => {
-              scroll(325);
+              scroll(340);
             }}
           />
         </div>
@@ -49,7 +49,7 @@ export const Certifications = () => {
           className={styles.scrollArrows}
           icon={faCircleArrowRight}
           onClick={() => {
-            scroll(330);
+            scroll(355);
           }}
         />
       </div>
