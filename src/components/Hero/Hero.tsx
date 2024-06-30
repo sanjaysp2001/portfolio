@@ -15,7 +15,7 @@ const Hero = () => {
             transition={{ delay: 1, duration:0.8 }}
           >
             I am a React Developer with 2 years of experience in{" "}
-            <b>Javascript</b>,<b>React js</b>,<b>Redux</b> and{" "}
+            <b>Javascript</b>, <b>React js</b>,<b>Redux</b> and{" "}
             <b>Material UI</b>
           </motion.p>
         </div>

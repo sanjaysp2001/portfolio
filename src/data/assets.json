@@ -1,6 +1,7 @@
 {
   "about": {
-    "aboutImage": "/assets/about/aboutImage.png",
+    "aboutImage1": "/assets/about/aboutImage1.png",
+    "aboutImage2": "/assets/about/aboutImage2.png",
     "cursorIcon": "/assets/about/cursorIcon.png",
     "serverIcon": "/assets/about/serverIcon.png",
     "uiIcon": "/assets/about/uiIcon.png"

@@ -47,7 +47,7 @@ const AnimatedTextWord = ({ text }) => {
       {words.map((word, index) => (
         <motion.span
           variants={child}
-          style={{ marginRight: "20px", fontFamily: "Roboto" }}
+          style={{ marginRight: "20px" }}
           key={index}
         >
           {word}

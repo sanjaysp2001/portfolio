@@ -33,6 +33,10 @@
   },
   {
     "name": "Postman ",
-    "imageUrl": "https://ucarecdn.com/f605f86a-c121-443b-8321-04032f93d021/-/preview/75x75/"
+    "imageUrl": "/assets/skills/postman.png"
+  },
+  {
+    "name": "Firebase ",
+    "imageUrl": "/assets/skills/firebase.png"
   }
 ]

@@ -34,14 +34,14 @@ export const Certifications = () => {
             icon={faCircleArrowLeft}
             className={styles.scrollArrowsMobile}
             onClick={() => {
-              scroll(-340);
+              scroll(-325);
             }}
           />
           <FontAwesomeIcon
             className={styles.scrollArrowsMobile}
             icon={faCircleArrowRight}
             onClick={() => {
-              scroll(340);
+              scroll(325);
             }}
           />
         </div>
