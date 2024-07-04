@@ -18,7 +18,7 @@ export const analytics = getAnalytics(firebaseApp);
 function App() {
   useEffect(() => {
     logEvent(analytics, "application_loaded");
-  }, [analytics]);
+  });
   return (
     <div className={styles.App}>
       <Navbar />
