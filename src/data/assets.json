@@ -1,0 +1,27 @@
+{
+  "about": {
+    "aboutImage1": "/assets/about/aboutImage1.png",
+    "aboutImage2": "/assets/about/aboutImage2.png",
+    "cursorIcon": "/assets/about/cursorIcon.png",
+    "serverIcon": "/assets/about/serverIcon.png",
+    "uiIcon": "/assets/about/uiIcon.png"
+  },
+  "contact": {
+    "emailIcon": "/assets/contact/emailIcon.png",
+    "githubIcon": "/assets/contact/githubIcon.png",
+    "linkedinIcon": "/assets/contact/linkedinIcon.png"
+  },
+  "hero": {
+    "heroImage": "/assets/hero/heroImage.png"
+  },
+  "history": {
+    "infosys": "/assets/history/infosys.png"
+  },
+  "nav": {
+    "menuIcon": "/assets/nav/menuIcon.png",
+    "closeIcon": "/assets/nav/closeIcon.png"
+  },
+  "projects": {
+    "project": "/assets/projects/project.png"
+  }
+}

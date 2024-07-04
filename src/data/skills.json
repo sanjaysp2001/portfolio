@@ -1,0 +1,42 @@
+[
+  {
+    "name": "Javascript",
+    "imageUrl": "/assets/skills/js.png"
+  },
+  {
+    "name": "HTML",
+    "imageUrl": "/assets/skills/html.png"
+  },
+  {
+    "name": "CSS",
+    "imageUrl": "/assets/skills/css.png"
+  },
+  {
+    "name": "React",
+    "imageUrl": "/assets/skills/react.png"
+  },
+  {
+    "name": "Redux",
+    "imageUrl": "/assets/skills/redux.png"
+  },
+  {
+    "name": "Material UI",
+    "imageUrl": "/assets/skills/materialui.png"
+  },
+  {
+    "name": "Git ",
+    "imageUrl": "/assets/skills/git.png"
+  },
+  {
+    "name": "Rest API ",
+    "imageUrl": "/assets/skills/restapi.png"
+  },
+  {
+    "name": "Postman ",
+    "imageUrl": "/assets/skills/postman.png"
+  },
+  {
+    "name": "Firebase ",
+    "imageUrl": "/assets/skills/firebase.png"
+  }
+]

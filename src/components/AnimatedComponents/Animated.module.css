@@ -1,0 +1,18 @@
+@import url("../../vars.css");
+
+.title {
+  font-size: 72px;
+  font-weight: 900;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 5%;
+}
+
+@media screen and (max-width: 830px) {
+  .title {
+    margin-top: 10%;
+    margin-bottom: 10%;
+  }
+}

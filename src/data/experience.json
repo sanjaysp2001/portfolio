@@ -1,0 +1,15 @@
+[
+  {
+    "role": "Digital Specialist Engineer",
+    "organization": "Infosys",
+    "startDate": "July 2022",
+    "endDate": "Present",
+    "description": [
+      " Developed User Interface for a 3D Car Configurator Application with React components",
+      "Implemented workflow for UI and 3D Model interaction that also updates the model in real time, improving response time by 30%",
+      "Incorporated Redux for state management and streamlining component rerendering.",
+      "Improving data flow within applications by properly integrating the REST APIs and thus reducing the number of API calls"
+    ],
+    "imageSrc": "https://ucarecdn.com/2f82b5fe-ad32-412e-b03a-457b91b8fc0d/-/preview/75x75/"
+  }
+]
