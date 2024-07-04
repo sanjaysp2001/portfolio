@@ -1,8 +1,9 @@
 export const firebaseConfig = {
-  apiKey: `${process.env.REACT_APP_FIREBASE_API_KEY}`,
-  authDomain: `${process.env.REACT_APP_FIREBASE_AUTHDOMAIN}`,
-  projectId: `${process.env.REACT_APP_FIREBASE_PROJECT_ID}`,
-  storageBucket: `${process.env.REACT_APP_FIREBASE_STORAGE_BUCKET}`,
-  messagingSenderId: `${process.env.REACT_APP_FIREBASE_MESSAGING_SENDER_ID}`,
-  appId: `${process.env.REACT_APP_FIREBASE_APP_ID}`,
+  apiKey: "AIzaSyBCD0p7yWDw3XZxtDx9AsCjYQtRABrW67Q",
+  authDomain: "portfolio-de5cd.firebaseapp.com",
+  projectId: "portfolio-de5cd",
+  storageBucket: "portfolio-de5cd.appspot.com",
+  messagingSenderId: "340323829860",
+  appId: "1:340323829860:web:e8d661619a291b99d5f771",
+  measurementId: "G-J3MJV9C1VR"
 };

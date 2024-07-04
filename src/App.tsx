@@ -11,15 +11,14 @@ import { Certifications } from "./components/Certifications/Certifications";
 import { initializeApp } from "firebase/app";
 import { getAnalytics, logEvent } from "firebase/analytics";
 import { firebaseConfig } from "./firebase.config";
+const firebaseApp = initializeApp(firebaseConfig);
 
+export const analytics = getAnalytics(firebaseApp);
 
 function App() {
-  const app = initializeApp(firebaseConfig);
-  const analytics = getAnalytics(app);
-
-  useEffect(()=>{
-    logEvent(analytics,"test_firebase_analytics")
-  },[analytics])
+  useEffect(() => {
+    logEvent(analytics, "application_loaded");
+  }, [analytics]);
   return (
     <div className={styles.App}>
       <Navbar />
