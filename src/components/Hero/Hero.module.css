@@ -19,6 +19,13 @@
   z-index: 1;
 }
 
+.typeanimation{
+  font-size: 6rem;
+  letter-spacing: normal;
+  font-weight: 600;
+  margin-top: 5%;
+  margin-bottom: 5%;
+}
 .title {
   font-size: 72px;
   font-weight: 900;
