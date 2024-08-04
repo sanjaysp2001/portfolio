@@ -1,7 +1,6 @@
 import styles from "./Hero.module.css";
 import assets from "../../data/assets.json";
 import resume from "../../data/resume.json";
-import AnimatedText from "../AnimatedComponents/AnimatedText";
 import { TypeAnimation } from "react-type-animation";
 import { logEvent } from "firebase/analytics";
 import { motion } from "framer-motion";
