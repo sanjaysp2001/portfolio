@@ -5,6 +5,7 @@ import { TypeAnimation } from "react-type-animation";
 import { logEvent } from "firebase/analytics";
 import { motion } from "framer-motion";
 import { analytics } from "../../App";
+import AnimatedText from "../AnimatedText/AnimatedText";
 const Hero = () => {
   return (
     <section className={styles.container}>
@@ -23,9 +24,14 @@ const Hero = () => {
             animate={{ opacity: 1, x: 0 }}
             transition={{ delay: 1.7, duration: 0.8 }}
           >
-            I am a React Developer with 2 years of experience in{" "}
-            <b>Javascript</b>, <b>React js</b>,<b>Redux</b> and{" "}
-            <b>Material UI</b>
+            <span>
+              I am a proficient Full Stack Developer with 2+ years of experience
+              specializing in the MERN stack, which includes
+            </span>
+            <AnimatedText> MongoDB </AnimatedText>,
+            <AnimatedText> Express.js </AnimatedText>,
+            <AnimatedText> React </AnimatedText>,
+            <AnimatedText> Node.js </AnimatedText>,
           </motion.p>
         </div>
         <div className={styles.links}>

@@ -1,20 +1,6 @@
-import React from "react";
-
 import styles from "./Projects.module.css";
-
-import projectDetails from "../../data/projects.json";
+import projects from "../../data/projects.json"
 import { ProjectCard } from "./ProjectCard";
-
-export type ProjectType = {
-  title: string;
-  description: string;
-  skills: string[];
-  imageSrc: string;
-  demo: string;
-  source: string;
-};
-
-let projects: ProjectType[] = projectDetails;
 
 export const Projects = () => {
   return (

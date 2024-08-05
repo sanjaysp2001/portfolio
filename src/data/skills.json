@@ -24,6 +24,22 @@
     "imageUrl": "/assets/skills/materialui.png"
   },
   {
+    "name": "Node JS ",
+    "imageUrl": "/assets/skills/node.png"
+  },
+  {
+    "name": "Express JS ",
+    "imageUrl": "/assets/skills/express.png"
+  },
+  {
+    "name": "MongoDB ",
+    "imageUrl": "/assets/skills/mongodb.png"
+  },
+  {
+    "name": "Tailwind",
+    "imageUrl": "/assets/skills/tailwind.png"
+  },
+  {
     "name": "Git ",
     "imageUrl": "/assets/skills/git.png"
   },

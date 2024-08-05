@@ -21,6 +21,8 @@
 }
 .image {
   margin-bottom: 26px;
+  height: 200px;
+  width: 200px;
 }
 
 .title {
@@ -103,5 +105,10 @@
   .links{
     align-items: center;
     justify-content: center;
+  }
+  .image {
+    margin-bottom: 26px;
+    height: 200px;
+    width: 70vw;
   }
 }

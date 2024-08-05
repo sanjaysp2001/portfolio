@@ -1,8 +1,10 @@
 import styles from "./About.module.css";
 import assets from "../../data/assets.json";
 import { motion } from "framer-motion";
+import { useState } from "react";
 
 const About = () => {
+  const [currentImage, setCurrentImage] = useState(assets.about.aboutImage1);
   return (
     <section className={styles.container} id="about">
       <h2 className={styles.title}>About Me</h2>
@@ -14,45 +16,28 @@ const About = () => {
               whileInView={{ scale: 1.5 }}
               viewport={{ once: true }}
               className={styles.aboutImage}
-              src={assets.about.aboutImage1}
+              src={currentImage}
               alt="me sitting with laptop"
+              onMouseOver={() => {
+                setCurrentImage(assets.about.aboutImage2);
+              }}
+              onMouseOut={() => {
+                setCurrentImage(assets.about.aboutImage1);
+              }}
             ></motion.img>
           </div>
 
           <div className={styles.aboutItem}>
-            <h3>Frontend Developer</h3>
+            <h3>Full Stack Developer</h3>
             <p>
-              I am a passionate React developer with 2 years of professional
-              experience in creating dynamic and user-friendly web applications.
-              My journey into web development began with a deep interest in
-              front-end technologies, and over the past two years, I have honed
-              my skills in building efficient and scalable applications using
-              React.
-            </p>
-          </div>
-        </div>
-        <div
-          className={styles.content}
-          style={{ flexDirection: "row-reverse", marginBottom:"5%" }}
-        >
-          <div  className={styles.imageContainer}>
-            <motion.img
-              initial={{ scale: 0.1 }}
-              whileInView={{ scale: 1.5 }}
-              viewport={{ once: true }}
-              className={styles.aboutImage}
-              src={assets.about.aboutImage2}
-              alt="me sitting with laptop"
-            ></motion.img>
-          </div>
-          <div className={styles.aboutItem}>
-            <h3>Problem Solver</h3>
-            <p>
-              I thrive in collaborative environments and enjoy working with
-              cross-functional teams to bring ideas to life. My problem-solving
-              skills, attention to detail, and dedication to continuous learning
-              enable me to stay up-to-date with the latest industry trends and
-              technologies.
+              A passionate and dedicated full-stack developer specializing in
+              the MERN (MongoDB, Express.js, React, Node.js) stack. With a
+              strong foundation in both front-end and back-end technologies, I
+              create robust, scalable, and user-friendly web applications. My
+              expertise lies in designing responsive user interfaces, developing
+              efficient server-side logic, and managing databases seamlessly.
+              Explore my portfolio to see how I bring ideas to life through
+              clean code and innovative solutions.
             </p>
           </div>
         </div>
