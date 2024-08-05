@@ -1,13 +1,6 @@
-import React, { Key } from "react";
-
 import styles from "./ProjectCard.module.css";
-import { ProjectType } from "./Projects";
 
-interface IProjectCard {
-  project: ProjectType;
-  key: Key;
-}
-export const ProjectCard = ({ project, key }: IProjectCard) => {
+export const ProjectCard = ({ project, key }) => {
   return (
     <div className={styles.container} key={key}>
       <img

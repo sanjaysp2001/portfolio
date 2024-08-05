@@ -5,10 +5,13 @@
     "startDate": "July 2022",
     "endDate": "Present",
     "description": [
-      " Developed User Interface for a 3D Car Configurator Application with React components",
-      "Implemented workflow for UI and 3D Model interaction that also updates the model in real time, improving response time by 30%",
-      "Incorporated Redux for state management and streamlining component rerendering.",
-      "Improving data flow within applications by properly integrating the REST APIs and thus reducing the number of API calls"
+      "Developed the User Interface for a 3D Car Configurator Application using React components,enhancing user interaction.",
+      "Designed workflows for UI and 3D Model interactions, improving response times by 30% and  ensuring real-time model updates",
+      "Implemented secure user authentication and authorization with JWT, including data hashing for secure storage.",
+      "Optimized server-side logic with asynchronous APIs, boosting application responsiveness by 20%.",
+      "Collaborated with cross-functional team collaborations to integrate UI with server-side logic,  achieving a 40% improvement in data retrieval speed and enhancing user experience",
+      "Designed and implemented MongoDB database schemas to ensure optimal performance and data integrity for extensive data sets"
+     
     ],
     "imageSrc": "https://ucarecdn.com/2f82b5fe-ad32-412e-b03a-457b91b8fc0d/-/preview/75x75/"
   }

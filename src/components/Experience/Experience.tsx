@@ -16,6 +16,7 @@ const Experience = () => {
                 className={styles.skill}
                 initial={{ opacity: 0, scale: 0.1 }}
                 whileInView={{ opacity: 1, scale: 1 }}
+                whileHover={{ scale: 1.2,transition:{duration:0.1} }}
                 viewport={{ once: true }}
               >
                 <div className={styles.skillImgContainer}>

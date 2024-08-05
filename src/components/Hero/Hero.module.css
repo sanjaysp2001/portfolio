@@ -146,4 +146,9 @@
     width: 50%;
     height: auto;
   }
+  .typeanimation{
+    text-align: center;
+    font-size: 5rem;
+
+  }
 }

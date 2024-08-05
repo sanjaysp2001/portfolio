@@ -1,0 +1,21 @@
+.animated {
+    font-size: 2rem;
+  font-weight: 900;
+  background: linear-gradient(
+    to right,
+    rgba(56, 66, 99, 255),
+    rgba(87, 108, 188, 255),
+    rgba(13, 36, 73, 255)
+  );
+  background-size: 200% 200%;
+  animation: rainbow 2s ease-in-out infinite;
+  background-clip: text;
+  -webkit-background-clip: text;
+  text-align: center;
+  transition: color 0.2s ease-in-out;
+}
+
+.animated:hover {
+  color: rgba(0, 0, 0, 0);
+
+}
