@@ -2,7 +2,11 @@ import styles from "./Contact.module.css";
 import assets from "../../data/assets.json";
 import { logEvent } from "firebase/analytics";
 import { analytics } from "../../App";
+import { useEffect } from "react";
 const Contact = () => {
+  useEffect(() => {
+    logEvent(analytics, "screen_view");
+  });
   return (
     <footer id="contact" className={styles.footer}>
       <div className={styles.container}>
