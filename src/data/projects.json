@@ -1,8 +1,8 @@
 [
   {
     "title": "URL Shortener",
-    "description": "A URL Shortener application bulit using Node.js, Express.js, React and MongoDB",
-    "skills": ["React", "Node.js", "Express.js", "MongoDB", "Tailwind CSS"],
+    "description": "A URL Shortener application built using React and Tailwind CSS",
+    "skills": ["React", "Tailwind CSS"],
     "imageSrc": "/assets/projects/urlshortener.png",
     "demo": "https://spsurl.web.app",
     "source": "https://github.com/sanjaysp2001/url-shortener-frontend"

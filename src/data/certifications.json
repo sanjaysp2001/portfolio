@@ -1,12 +1,18 @@
 [
   {
-    "title": "Infosys Certified React Professional",
+    "title": "Certified React Professional",
     "provider": "Infosys",
     "imageSrc": "/assets/certifications/infosys.jpg",
     "source": "https://drive.google.com/file/d/1Mxhd3iuDXYwQ2TE0W09vl1lus-QQyck2/view?usp=drivesdk"
   },
   {
-    "title": "Infosys Certified .NET Core Web API Developer",
+    "title": "Certified .NET Core Web API Developer",
+    "provider": "Infosys",
+    "imageSrc": "/assets/certifications/infosys.jpg",
+    "source": "https://drive.google.com/file/d/1gaBseX7Ssie3gQ_y7Xx75LPbr73gGjG1/view?usp=drivesdk"
+  },
+  {
+    "title": "Certified Microsoft SQL Server Developer",
     "provider": "Infosys",
     "imageSrc": "/assets/certifications/infosys.jpg",
     "source": "https://drive.google.com/file/d/1gaBseX7Ssie3gQ_y7Xx75LPbr73gGjG1/view?usp=drivesdk"

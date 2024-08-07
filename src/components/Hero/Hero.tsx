@@ -26,12 +26,12 @@ const Hero = () => {
           >
             <span>
               I am a proficient Full Stack Developer with 2+ years of experience
-              specializing in the MERN stack, which includes
+              specializing in
             </span>
-            <AnimatedText> MongoDB </AnimatedText>,
-            <AnimatedText> Express.js </AnimatedText>,
+            <AnimatedText> C# </AnimatedText>,
+            <AnimatedText> .NET Core </AnimatedText>
+            and
             <AnimatedText> React </AnimatedText>,
-            <AnimatedText> Node.js </AnimatedText>,
           </motion.p>
         </div>
         <div className={styles.links}>
