@@ -12,6 +12,14 @@
     "imageUrl": "/assets/skills/css.png"
   },
   {
+    "name": "C#",
+    "imageUrl": "/assets/skills/csharp.png"
+  },
+  {
+    "name": ".NET Core",
+    "imageUrl": "/assets/skills/dotnetcore.png"
+  },
+  {
     "name": "React",
     "imageUrl": "/assets/skills/react.png"
   },
@@ -22,18 +30,6 @@
   {
     "name": "Material UI",
     "imageUrl": "/assets/skills/materialui.png"
-  },
-  {
-    "name": "Node JS ",
-    "imageUrl": "/assets/skills/node.png"
-  },
-  {
-    "name": "Express JS ",
-    "imageUrl": "/assets/skills/express.png"
-  },
-  {
-    "name": "MongoDB ",
-    "imageUrl": "/assets/skills/mongodb.png"
   },
   {
     "name": "Tailwind",
