@@ -23,9 +23,9 @@ const Contact = () => {
                   button_name: "contact_email",
                 });
               }}
-              href="mailto:myemail@email.com"
+              href="mailto:sanjayspm2001@email.com"
             >
-              spsanjay6567@gmail.com
+              sanjayspm2001@gmail.com
             </a>
           </li>
           <li className={styles.link}>
