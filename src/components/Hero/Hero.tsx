@@ -29,9 +29,10 @@ const Hero = () => {
               specializing in
             </span>
             <AnimatedText> C# </AnimatedText>,
+            <AnimatedText>JavaScript </AnimatedText>,
             <AnimatedText> .NET Core </AnimatedText>
             and
-            <AnimatedText> React </AnimatedText>,
+            <AnimatedText> React </AnimatedText>
           </motion.p>
         </div>
         <div className={styles.links}>
@@ -44,7 +45,7 @@ const Hero = () => {
             initial={{ scale: 0 }}
             animate={{ scale: 1 }}
             transition={{ delay: 1.7 }}
-            href="mailto:spsanjay6567@gmail.com"
+            href="mailto:sanjayspm2001@gmail.com"
             className={styles.contactButton}
           >
             Contact Me
