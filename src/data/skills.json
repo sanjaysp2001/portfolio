@@ -32,10 +32,6 @@
     "imageUrl": "/assets/skills/materialui.png"
   },
   {
-    "name": "Tailwind",
-    "imageUrl": "/assets/skills/tailwind.png"
-  },
-  {
     "name": "Git ",
     "imageUrl": "/assets/skills/git.png"
   },
@@ -46,9 +42,5 @@
   {
     "name": "Postman ",
     "imageUrl": "/assets/skills/postman.png"
-  },
-  {
-    "name": "Firebase ",
-    "imageUrl": "/assets/skills/firebase.png"
   }
 ]

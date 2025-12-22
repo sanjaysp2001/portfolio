@@ -59,8 +59,8 @@
   text-shadow: 2px 3px 2px black;
 }
 
-.aboutItem h3 {
-  font-size: 35px;
+.aboutItem h1 {
+  font-size: 45px;
   font-weight: 600;
 }
 
@@ -73,6 +73,9 @@
   margin-right: 2%;
 }
 
+.aboutDescription{
+  margin-top:2%
+}
 .aboutDescription h3 {
   font-size: 25px;
   font-weight: 600;
@@ -94,21 +97,25 @@
     justify-content: center;
     flex-direction: column;
   }
-
-  .aboutImage {
-    display: none;
+  .aboutItem{
+    width: 90%;
+    margin-top: 15%;
   }
-  .aboutItem {
-    text-align: left;
-    padding-left: 0;
-    padding-right: 0;
-  }
-
   .aboutItem img {
     display: none;
   }
-
-  .aboutDescription {
+  .aboutItem h1{
     text-align: center;
+    margin-bottom: 15%;
   }
+  .aboutDescription{
+    margin-top: 15%;
+    font-size: 25px;
+    text-align: left;
+  }
+  .aboutImage {
+    display: none;
+  }
+
+
 }
