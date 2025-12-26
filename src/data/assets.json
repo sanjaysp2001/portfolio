@@ -23,5 +23,8 @@
   },
   "projects": {
     "project": "/assets/projects/project.png"
+  },
+  "experience":{
+    "valgenesis":"/assets/experience/valgenesis.png"
   }
 }
