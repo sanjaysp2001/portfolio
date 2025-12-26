@@ -25,11 +25,12 @@ const Hero = () => {
             transition={{ delay: 1.7, duration: 0.8 }}
           >
             <span>
-              I am a proficient Full Stack Developer with 2+ years of experience
+              I am a proficient Full Stack Developer with 3.5 years of experience
               specializing in
             </span>
             <AnimatedText> C# </AnimatedText>,
             <AnimatedText>JavaScript </AnimatedText>,
+            <AnimatedText>TypeScript</AnimatedText>,
             <AnimatedText> .NET Core </AnimatedText>
             and
             <AnimatedText> React </AnimatedText>

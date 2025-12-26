@@ -28,8 +28,12 @@ const About = () => {
           </div>
 
           <div className={styles.aboutItem}>
-            <h3>Full Stack Developer</h3>
-            <p>{about.description}</p>
+            <h1>Full Stack Developer</h1>
+            <div>
+              {about.description.map((d) => {
+                return <p className={styles.aboutDescription}>{d}</p>;
+              })}
+            </div>
           </div>
         </div>
       </div>

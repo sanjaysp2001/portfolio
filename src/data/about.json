@@ -1,3 +1,6 @@
 {
-  "description": "A passionate and dedicated full-stack developer specializing in the .NET Core + React stack. With a strong foundation in both front-end and back-end technologies, I create robust, scalable, and user-friendly web applications. My expertise lies in designing responsive user interfaces, developing efficient server-side logic, and managing databases seamlessly. Explore my portfolio to see how I bring ideas to life through clean code and innovative solutions."
+  "description": [
+    "A passionate and dedicated full-stack developer specializing in the .NET Core + React stack. With a strong foundation in both front-end and back-end technologies, I create robust, scalable, and user-friendly web applications.",
+    "My expertise lies in designing responsive user interfaces, developing efficient server-side logic, and managing databases seamlessly. Explore my portfolio to see how I bring ideas to life through clean code and innovative solutions."
+  ]
 }
