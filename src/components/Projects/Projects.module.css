@@ -21,3 +21,10 @@
   gap: 15px;
   width: 100%;
 }
+
+@media screen and (max-width: 830px) {
+  .title {
+    font-size: clamp(2.2rem, 8vw, 3rem);
+    text-align: center;
+  }
+}
