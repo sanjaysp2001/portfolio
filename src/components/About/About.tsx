@@ -28,7 +28,7 @@ const About = () => {
           </div>
 
           <div className={styles.aboutItem}>
-            <h1>Full Stack Developer</h1>
+            <h1>.NET Full Stack Developer</h1>
             <div>
               {about.description.map((d) => {
                 return <p className={styles.aboutDescription}>{d}</p>;

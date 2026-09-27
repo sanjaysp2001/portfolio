@@ -10,23 +10,32 @@ const Hero = () => {
   return (
     <section className={styles.container}>
       <div className={styles.content}>
-        <div className={styles.typeanimation}>
+        <motion.div
+          className={styles.typeanimation}
+          initial={{ opacity: 0, y: 18 }}
+          animate={{ opacity: 1, y: 0 }}
+          transition={{ duration: 0.7, ease: [0.22, 1, 0.36, 1], delay: 0.15 }}
+        >
           <TypeAnimation
             sequence={["Hi, I am Sanjay"]}
             wrapper="span"
-            speed={20}
+            speed={25}
           />
-        </div>
+        </motion.div>
         <div className={styles.textContainer}>
           <motion.p
             className={styles.description}
-            initial={{ opacity: 0, x: -100 }}
-            animate={{ opacity: 1, x: 0 }}
-            transition={{ delay: 1.7, duration: 0.8 }}
+            initial={{ opacity: 0, x: -24, y: 10 }}
+            animate={{ opacity: 1, x: 0, y: 0 }}
+            transition={{
+              duration: 0.8,
+              ease: [0.22, 1, 0.36, 1],
+              delay: 1,
+            }}
           >
             <span>
-              I am a proficient Full Stack Developer with 3.5 years of experience
-              specializing in
+              I am a .NET Full Stack Developer with 4 years of professional
+              experience specializing in
             </span>
             <AnimatedText> C# </AnimatedText>,
             <AnimatedText>JavaScript </AnimatedText>,
@@ -43,9 +52,13 @@ const Hero = () => {
                 button_name: "contact",
               });
             }}
-            initial={{ scale: 0 }}
-            animate={{ scale: 1 }}
-            transition={{ delay: 1.7 }}
+            initial={{ opacity: 0, y: 18, scale: 0.97 }}
+            animate={{ opacity: 1, y: 0, scale: 1 }}
+            transition={{
+              duration: 0.6,
+              ease: [0.22, 1, 0.36, 1],
+              delay: 1.7,
+            }}
             href="mailto:sanjayspm2001@gmail.com"
             className={styles.contactButton}
           >
@@ -57,9 +70,13 @@ const Hero = () => {
                 button_name: "view_resume",
               });
             }}
-            initial={{ scale: 0 }}
-            animate={{ scale: 1 }}
-            transition={{ delay: 1.7 }}
+            initial={{ opacity: 0, y: 18, scale: 0.97 }}
+            animate={{ opacity: 1, y: 0, scale: 1 }}
+            transition={{
+              duration: 0.6,
+              ease: [0.22, 1, 0.36, 1],
+              delay: 1.7,
+            }}
             href={resume.url}
             className={styles.contactButton}
           >
@@ -67,11 +84,14 @@ const Hero = () => {
           </motion.a>
         </div>
       </div>
-      <img
+      <motion.img
         src={assets.hero.heroImage}
         alt="hero"
         className={styles.heroImage}
-      ></img>
+        initial={{ opacity: 0, scale: 0.96 }}
+        animate={{ opacity: 1, scale: 1 }}
+        transition={{ duration: 0.9, ease: [0.22, 1, 0.36, 1], delay: 0.2 }}
+      />
       <div className={styles.topBlur}></div>
       <div className={styles.bottomBlur}></div>
     </section>

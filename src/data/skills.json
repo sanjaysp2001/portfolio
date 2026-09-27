@@ -1,7 +1,15 @@
 [
   {
-    "name": "Javascript",
+    "name": "C#",
+    "imageUrl": "/assets/skills/csharp.png"
+  },
+  {
+    "name": "JavaScript",
     "imageUrl": "/assets/skills/js.png"
+  },
+  {
+    "name": "TypeScript",
+    "imageUrl": "/assets/skills/typescript.png"
   },
   {
     "name": "HTML",
@@ -10,10 +18,6 @@
   {
     "name": "CSS",
     "imageUrl": "/assets/skills/css.png"
-  },
-  {
-    "name": "C#",
-    "imageUrl": "/assets/skills/csharp.png"
   },
   {
     "name": ".NET Core",
@@ -36,11 +40,19 @@
     "imageUrl": "/assets/skills/git.png"
   },
   {
-    "name": "Rest API ",
-    "imageUrl": "/assets/skills/restapi.png"
+    "name": "Kafka",
+    "imageUrl": "/assets/skills/kafka.png"
   },
   {
-    "name": "Postman ",
-    "imageUrl": "/assets/skills/postman.png"
+    "name": "PostgreSQL",
+    "imageUrl": "/assets/skills/postgreSQL.png"
+  },
+  {
+    "name": "Docker",
+    "imageUrl": "/assets/skills/docker.png"
+  },
+  {
+    "name": "Azure",
+    "imageUrl": "/assets/skills/azure.png"
   }
 ]
