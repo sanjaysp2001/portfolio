@@ -5,9 +5,10 @@
     "startDate": "November 2024",
     "endDate": "Present",
     "description": [
-      "Developed and maintained modular, reusable UI components for key workflows in a B2B SaaS platform",
-      "Designed and implemented RESTful APIs using .NET Core and PostgreSQL within a microservices architecture integrated with Kafka for event-driven processing",
-      "Built and maintained shared frontend and backend libraries in React and .NET Core, adopted by multiple internal teams and helping reduce code duplication by around 20% while improving maintainability and on boarding speed"
+      "I build React + TypeScript UIs across different product areas using Micro Frontends, with Material UI for a consistent look and feel.",
+      "On the backend, I work with ASP.NET Core, PostgreSQL, and Kafka to build APIs that handle real-time data smoothly.",
+      "I've created shared React and .NET libraries that cut down repeated work and made the whole team faster — all packaged with Docker.",
+      "I work in Agile sprints across multiple repos, keeping CI/CD pipelines healthy so features ship on time."
     ],
     "imageSrc": "/assets/experience/valgenesis.png"
   },
@@ -17,11 +18,11 @@
     "startDate": "July 2022",
     "endDate": "November 2024",
     "description": [
-      "Developed the User Interface for a 3D Car Configurator Application using React components,enhancing user interaction.",
-      "Designed workflows for UI and 3D Model interactions, improving response times by 30% and  ensuring real-time model updates",
-      "Implemented secure user authentication and authorization with JWT, including data hashing for secure storage."
+      "I built full-stack modules for a 3D car configurator using React, Material UI, .NET Core, and SQL Server.",
+      "I created REST APIs to handle vehicle configuration, pricing logic, and real-time updates across multiple parameters.",
+      "I designed and optimized database schemas and stored procedures to keep configuration workflows fast and responsive.",
+      "I worked closely with cross-functional teams to connect the UI, backend, and data layers into a smooth end-to-end experience."
     ],
     "imageSrc": "https://ucarecdn.com/2f82b5fe-ad32-412e-b03a-457b91b8fc0d/-/preview/75x75/"
   }
- 
 ]
